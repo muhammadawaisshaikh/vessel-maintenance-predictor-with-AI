@@ -156,7 +156,7 @@ const RegisterForm: React.FC = () => {
                 {
                   USER_TYES.map(ut => {
                     return (
-                      <option value={ut.id}>{ut.name}</option>
+                      <option value={ut.id} key={ut.id}>{ut.name}</option>
                     );
                   })
                 }
