@@ -98,7 +98,7 @@ const LoginForm: React.FC = () => {
             </button>
           </div>
           <p className='text-center'>
-            <span className='mr-2'>Don't have an account?</span>
+            <span className='mr-2'>Do not have an account?</span>
             <Link className='text-blue-500' href="/auth/register">Register</Link>
           </p>
         </form>
